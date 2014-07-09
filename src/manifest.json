@@ -24,6 +24,7 @@
     "*://*.podio.com/*",
     "*://*.redbooth.com/*",
     "*://*.trello.com/*",
+    "*://mango.medialab.nl/*",
     "*://*.worksection.com/*",
     "*://*.basecamp.com/*",
     "*://*.atlassian.net/*",
@@ -54,6 +55,7 @@
         "*://*.podio.com/*",
         "*://*.redbooth.com/*",
         "*://*.trello.com/*",
+        "*://mango.medialab.nl/*",
         "*://*.worksection.com/*",
         "*://*.basecamp.com/*",
         "*://*.atlassian.net/*",
@@ -83,6 +85,10 @@
     {
       "matches": ["*://*.producteev.com/*"],
       "js": ["scripts/content/producteev.js"]
+    },
+     {
+      "matches": ["*://mango.medialab.nl/*"],
+      "js": ["scripts/content/fogbugz.js"]
     },
     {
       "matches": ["*://*.bitbucket.org/*"],
