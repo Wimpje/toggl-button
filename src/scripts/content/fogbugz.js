@@ -18,6 +18,7 @@ togglbutton.render('#bugviewContainer', {}, function (elem) {
     description: description,
     projectName: projectElem && projectElem.textContent
   });
-
-  $('#bugviewContainer .ixBug').prependChild(link);
+  var div = createTag("div", "ixBug7");
+  div.appendChild(link);
+  $('#bugviewContainer .ixBug').appendChild(div);
 });
